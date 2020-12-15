@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [DataDrivenSuite]" parallel="none">
+  <parameter name="browsertype" value="chrome"/>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.automation.DataDriven.TestScripts.Verify_Loan_Enquiry"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.automation.DataDriven.TestScripts.Verify_Loan_Enquiry">
+        <methods>
+          <include name="BeforeTCExecution"/>
+          <include name="AfterTCExcution"/>
+          <include name="homepage"/>
+          <include name="initReports"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.automation.DataDriven.TestScripts.Verify_Loan_Enquiry -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [DataDrivenSuite] -->

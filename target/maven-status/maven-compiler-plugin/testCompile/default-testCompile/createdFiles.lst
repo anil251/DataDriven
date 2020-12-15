@@ -1,0 +1,5 @@
+com\automation\DataDriven\TestScripts\Verify_Loan_Enquiry.class
+com\automation\DataDriven\TestScripts\Get2loan_Enquiry.class
+com\automation\DataDriven\TestScripts\DataDrivenTest.class
+com\automation\DataDriven\TestScripts\Loan_Enquiry.class
+com\automation\DataDriven\TestScripts\ExcelOperations.class
